@@ -1,0 +1,152 @@
+/* Your custom HR styling */
+.hrbreakline {
+    border: none;
+    border-top: 2px solid #000;
+    margin: 20px 0;
+  }
+  
+  /* Optional: Styling the toolbar buttons */
+  #toolbar {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Optional: Set font size, button look */
+  #toolbar button {
+    margin-right: 5px;
+    background: #f0f0f0;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+
+  /* customQuillStyles.css */
+
+.ql-editor::before {
+    color: #374151; /* gray-700 for light mode */
+  }
+  
+  /* Dark mode placeholder color */
+  .dark .ql-editor::before {
+    color: #f3f4f6; /* gray-100 for dark mode */
+  }
+
+  
+  /* customQuillStyles.css */
+
+/* Ensure button icons inherit the text color */
+.ql-toolbar .ql-formats button {
+  color: inherit !important;
+  /* If you're using SVG icons, make sure they inherit the fill color */
+  fill: inherit !important;
+}
+
+/* Apply hover color */
+.ql-toolbar .ql-formats button:hover {
+  color: #4b5563; /* You can change this color based on your theme's hover state */
+  fill: #4b5563;
+}
+
+/* Optionally, target specific button types for better control */
+.ql-toolbar .ql-bold:hover,
+.ql-toolbar .ql-italic:hover,
+.ql-toolbar .ql-underline:hover,
+.ql-toolbar .ql-list:hover {
+  color: #1f2937; /* Change this to a color that fits your theme */
+  fill: #1f2937;
+}
+
+
+/* customQuillStyles.css */
+
+/* Make sure the toolbar buttons' text and icons inherit the text color */
+.ql-toolbar .ql-formats button {
+    color: inherit !important;   /* Ensure text color is inherited */
+    fill: inherit !important;    /* Ensure SVG fill color is inherited */
+  }
+  
+  /* Hover state for toolbar buttons */
+  .ql-toolbar .ql-formats button:hover {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  /* Additional specific targeting for individual button states */
+  .ql-toolbar .ql-bold:hover,
+  .ql-toolbar .ql-italic:hover,
+  .ql-toolbar .ql-underline:hover,
+  .ql-toolbar .ql-list:hover,
+  .ql-toolbar .ql-align:hover,
+  .ql-toolbar .ql-link:hover,
+  .ql-toolbar .ql-image:hover,
+  .ql-toolbar .ql-blockquote:hover,
+  .ql-toolbar .ql-color:hover,
+  .ql-toolbar .ql-background:hover,
+  .ql-toolbar .ql-code-block:hover {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  /* Apply specific colors to Quill buttons based on theme */
+  .ql-toolbar .ql-bold {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-italic {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-underline {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-list {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-align {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-link {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-image {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-blockquote {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-color {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-background {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+  
+  .ql-toolbar .ql-code-block {
+    color: inherit !important;
+    fill: inherit !important;
+  }
+
+.ql-container {
+    border: none !important; /* Remove border from the editor container */
+    padding: 0 !important;   /* Remove padding from the editor container */
+}

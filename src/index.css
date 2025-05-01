@@ -1,0 +1,7 @@
+/* First, import Tailwind */
+@import "tailwindcss";
+
+/* Your custom CSS */
+body {
+  font-family: 'Roboto', sans-serif;
+}
